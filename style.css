@@ -1,9 +1,23 @@
 body{
     
-  background: url('https://ewscripps.brightspotcdn.com/dims4/default/c130ecc/2147483647/strip/true/crop/640x360+0+60/resize/1280x720!/quality/90/?url=https%3A%2F%2Fmediaassets.10news.com%2Fphoto%2F2018%2F04%2F20%2FImage-San-Diego-skyline-18762555_106337_ver1.0_640_480_1524250174039_84476725_ver1.0_640_480.jpg') no-repeat center center fixed;
+  background: url('https://images.unsplash.com/photo-1514939775307-d44e7f10cabd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9') no-repeat center center fixed;
   background-size: cover;
   
 }
 #about-me {
     margin: 15px auto;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+
+.contact-wrapper {
+    margin: 30px auto;
 }
