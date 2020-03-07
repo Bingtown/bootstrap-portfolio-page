@@ -1,0 +1,9 @@
+body{
+    
+  background: url('https://ewscripps.brightspotcdn.com/dims4/default/c130ecc/2147483647/strip/true/crop/640x360+0+60/resize/1280x720!/quality/90/?url=https%3A%2F%2Fmediaassets.10news.com%2Fphoto%2F2018%2F04%2F20%2FImage-San-Diego-skyline-18762555_106337_ver1.0_640_480_1524250174039_84476725_ver1.0_640_480.jpg') no-repeat center center fixed;
+  background-size: cover;
+  
+}
+#about-me {
+    margin: 15px auto;
+}
