@@ -1,9 +1,9 @@
 body{
     
   background: url('https://images.unsplash.com/photo-1514939775307-d44e7f10cabd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9') no-repeat center center fixed;
-  background-size: cover;
-  
+  background-size: cover;  
 }
+/* This adds a picture as the background of all three pages */
 #about-me, #contact, #portfolio {
     margin: 15px auto;
     padding-bottom: 15px;
@@ -18,18 +18,19 @@ footer {
     text-align: center;
     color: white;
 }
+/* this aligns the sticky footer and positions it at the bottom of the page */
 .img-fluid {
     padding: 15px;
     height: auto;
     width: auto;
-    margin: auto;
-    
+    margin: auto;    
 }
+/* this aligns the images in the columns */
 .portfolio-wrapper {
     margin: 0 auto;
     position: relative;
 }
-
+/* this wraps the entire portfolio contents in a wrapper */
 .caption {
     position: absolute;
     top: 65%;
@@ -37,13 +38,14 @@ footer {
     background-color: teal;
     z-index: 999;
     text-align: center;
-    width: 34%;
+    width: 34%;    
 }
-
+/* This positions the captions on the images in the portfolio page */
 .col {
-    position:relative;
-    
+    position:relative;    
 }
+/* this allows the positioning of the images in the box to be absolute and align properly with the page layout */
 a {
     color: black;
 }
+/* This colors the links on the porfolio page black */
